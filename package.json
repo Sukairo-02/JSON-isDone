@@ -1,0 +1,26 @@
+{
+  "name": "json-isdone",
+  "version": "1.0.0",
+  "description": "Internship task",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sukairo-02/JSON-isDone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sukairo-02/JSON-isDone/issues"
+  },
+  "homepage": "https://github.com/Sukairo-02/JSON-isDone#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "axios-retry": "^3.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
