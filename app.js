@@ -32,7 +32,7 @@ axiosRetry(axios, {
 	},
 })
 
-//Recursivly find object by it's key's name, should return object with key named ${keyName}
+//Recursively find object by it's key's name, should return object with key named ${keyName}
 const findKey = (obj, keyName) => {
 	if (typeof obj[keyName] !== 'undefined') {
 		return obj
